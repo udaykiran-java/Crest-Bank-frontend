@@ -1,0 +1,95 @@
+.cancel-debit-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    height: 70vh;
+    background-image: url('./images/bgmain.webp');
+    background-size: cover; /* Makes the image cover the whole container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .cancel-debit-card-content {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cancel-debit-card-content h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .back-btn, .clear-btn, .submit-btn {
+    width: 32%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .clear-btn {
+    background-color: #ffc107;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .submit-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #e74c3c;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #28a745;
+  }
+  

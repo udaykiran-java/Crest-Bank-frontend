@@ -1,0 +1,28 @@
+.carousel-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Restrict the maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures images cover the space properly */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    color: #fff;
+  }
+  .carousel-item-form{
+    background-color: chocolate;
+    background-size: auto;
+  }

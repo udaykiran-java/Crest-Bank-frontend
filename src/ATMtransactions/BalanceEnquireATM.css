@@ -1,0 +1,128 @@
+/* Container for the balance enquiry */
+.balance-enquire-atm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('./images/bgmain.webp');
+    background-size: cover; /* Makes the image cover the whole container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 20px;
+  }
+  
+  /* Content box styling */
+  .balance-enquire-atm-content {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .balance-enquire-atm-content h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  /* Input field styling */
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button group styling */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Common button styling */
+  .button-group button {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Back button styling */
+  .back-btn {
+    background-color: #3af70a;
+    color: #161515;
+  }
+  
+  .back-btn:hover {
+    background-color: #5fe4a2;
+    transform: translateY(-2px);
+  }
+  
+  /* Clear button styling */
+  .clear-btn {
+    background-color: #dc3545;
+    color: #fff
+  }
+  
+  .clear-btn:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+  }
+  
+  /* Submit button styling */
+  .atm-mini-statement-btn {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .atm-mini-statement-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Error message styling */
+  .error-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff4d4d;
+    text-align: left;
+  }
+  
+  /* Balance result styling */
+  .balance-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  

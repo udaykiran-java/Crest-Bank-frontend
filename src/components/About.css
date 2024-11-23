@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container */
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, #004080, #0066cc);
+    color: white;
+  }
+  
+  /* Header */
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Content Sections */
+  .about-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #004080;
+  }
+  
+  .about-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .about-section ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .about-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Footer */
+  .about-footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .about-footer p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 20px;
+    }
+  
+    .about-content {
+      padding: 20px;
+    }
+  
+    .about-header h1 {
+      font-size: 28px;
+    }
+  
+    .about-header p {
+      font-size: 16px;
+    }
+  }
+  

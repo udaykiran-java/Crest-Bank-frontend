@@ -1,0 +1,104 @@
+/* Container for the Set PIN process */
+.set-pin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: url('./images/bgmain.webp'); /* Adjust the background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+/* Content box styling */
+.set-pin-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading styling */
+.set-pin-content h3 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #002d62;
+  font-weight: bold;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+
+/* Input field styling */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Focused input field */
+.form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+/* Send OTP button styling */
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Set PIN button styling */
+.btn {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Error message styling */
+.error-message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ff4d4d;
+  text-align: left;
+}
+
+/* Success message styling */
+.success-message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* After PIN is set success message */
+.success-message p {
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+}

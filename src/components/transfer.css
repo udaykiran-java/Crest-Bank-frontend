@@ -1,0 +1,68 @@
+.transfer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/bgmain.webp');
+  background-size: cover; /* Makes the image cover the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+
+  }
+  
+  .transfer-content {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .transfer-content h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .transfer-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .transfer-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .transfer-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .transfer-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .transfer-btn:hover {
+    background-color: #218838;
+  }
+  
+  .transfer-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,69 @@
+/* Header.css */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo1 img {
+    width: 100px; /* Adjust logo size */
+    margin-right: 15px;
+  }
+  
+  .logo1 h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #007BFF;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cta-button:focus {
+    outline: none;
+  }
+  

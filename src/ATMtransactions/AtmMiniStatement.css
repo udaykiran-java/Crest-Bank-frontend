@@ -1,0 +1,132 @@
+.atm-mini-statement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url('./images/bgmain.webp');
+  background-size: cover; /* Makes the image cover the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 20px;
+  }
+  
+  .atm-mini-statement-content {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .atm-mini-statement-content h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .atm-mini-statement-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .atm-mini-statement-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-btn,
+  .clear-btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #3af70a;
+    color: #161515;
+  }
+  
+  .back-btn:hover {
+    background-color: #75d594;
+  }
+  
+  .clear-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .clear-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff0000;
+  }
+
+  .response-message{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #0b9703;
+  }
+
+  
+  .mini-statement-result {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .mini-statement-result h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .mini-statement-result ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mini-statement-result li {
+    background: #f4f4f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
